@@ -1,0 +1,43 @@
+u{
+    color: darkorchid;
+}
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+}
+div{
+    padding-bottom: 20px;
+    display: block;
+}
+form{
+    background-color: darkorchid;
+    color: white;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+*{
+ font-family: Arial, Helvetica, sans-serif;   
+}
+table{
+    display: inline-block
+}
+label{
+    width: 120px;
+    margin-right: 70px;
+    display: inline-block
+}
