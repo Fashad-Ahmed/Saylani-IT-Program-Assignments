@@ -1,0 +1,136 @@
+body
+{
+    background-color: #00000000 !important;
+    background-image: linear-gradient(147deg, #000000 54%, #0bf00b 94%) !important; 
+    text-align: center;
+    text-align: center;
+    font-family: 'Fondamento-Regular';
+    color:white;
+    position: relative;
+    height: 100%;
+}
+
+@font-face
+{
+    font-family: 'Fondamento-Regular';
+    src: url(Fondamento-Regular.ttf);
+    font-style: normal;
+    
+}
+  
+html
+{
+    height: 100%;
+    overflow: hidden;
+}
+h1
+{
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    width: 100px;
+    color: chartreuse;
+}
+button{
+    background-color: #FFA000;
+    background: #FFA000 -webkit-gradient(linear, left top, left bottom, from(#B4FF00), to(#FFA000)) no-repeat;
+    background: #FFA000 -moz-linear-gradient(top, #B4FF00, #FFA000) no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B4FF00, endColorstr=#FFA000) no-repeat;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B4FF00, endColorstr=#B4FF00)" no-repeat;
+
+    transition: height 45px; 
+    border-radius: 2px;
+    width: 80px;
+    height:35px;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+
+} 
+button:hover
+{
+
+    background-color: #EDFF73;
+    background: #EDFF73 -webkit-gradient(linear, left top, left bottom, from(#BED900), to(#EDFF73)) no-repeat;
+    background: #EDFF73 -moz-linear-gradient(top, #BED900, #EDFF73) no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#BED900, endColorstr=#EDFF73) no-repeat;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#BED900, endColorstr=#BED900)" no-repeat;
+}
+
+
+#lumber1
+{
+    font-size: 40px;
+    text-decoration: line-through black;
+    width: 300px;   
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.clockContainer
+{
+        position: relative;
+        top:0; left:0; bottom:0; right:0; margin: auto;
+        width: 150px;
+        height: 150px;
+        border: 1px solid transparent;
+      }
+      
+.clockOut
+{
+        width: 80%;
+        height: 80%;
+        border: 2px solid white;
+        border-radius: 50%;
+        position: absolute;
+        bottom:0;
+        margin-left: auto; margin-right: auto; left:0; right:0;
+      }
+      
+.clockTop
+{
+        border-top: 2px solid white;
+         border-right: 2px solid white;
+         border-left: 2px solid white;
+        width: 40px;
+        top: 11px;
+        position: absolute;
+        margin-left: auto; margin-right: auto; left:0; right:0;
+        height: 18px;
+        border-radius: 3px;
+      }
+      
+.clockNeedle
+{
+        width: 50px;
+        height: 2px;
+        background: white;
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform-origin:100% 50%;
+        -webkit-transform-origin:100% 50%;
+        -webkit-animation: needleAnimation 3s linear 0s infinite; 
+        animation: needleAnimation 3s linear 0s infinite;
+      }
+      
+      /* Chrome, Safari, Opera */
+@-webkit-keyframes needleAnimation
+ {
+          from {
+              
+          }
+          to {
+              -webkit-transform:rotate(360deg); 
+          }
+      }
+      
+      /* Standard syntax */
+ @keyframes needleAnimation {
+         from {
+              
+          }
+          to {
+              -ms-transform:rotate(360deg); 
+              -moz-transform:rotate(360deg); 
+              -webkit-transform:rotate(360deg); 
+          }
+}
