@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Assignment 09</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#" onclick="alert('Hello Pakistan')">Touch</a>
+    <div style="text-align: center;">
+        <img src="m1.jpg" onclick="alert('Thnaks for purchasing techno')"  alt="">
+        <img src="m2.jpg" onclick="alert('Thnaks for purchasing oppo')"  alt="">
+        <img src="m3.jpg" onclick="alert('Thnaks for purchasing samsung')"  alt="">
+        <img src="m4.jpg" onclick="alert('Thnaks for purchasing iphone')"  alt="">
+    </div>
+    <div id="aa-a">
+        <table>
+            <tr>
+                <td>Index</td>
+                <td>Name</td>
+                <td>Class</td>
+                <td></td>
+            </tr>
+            <tr id="aa1"><td>0</td>
+                <td>Fakhar</td>
+                <td>7</td>
+                <td><button id="dd" onclick="del()">delete</button></td></tr>
+            <tr id="aa1"><td>1</td>
+                <td>Azhar</td>
+                <td>6</td>
+                <td><button id="dd" onclick="del()">delete</button></td></tr>
+            <tr id="aa1"><td>2</td>
+                <td>Sarfaraz</td>
+                <td>8</td>
+                <td><button id="dd" onclick="del()">delete</button></td></tr>
+            <tr id="aa1"><td>3</td>
+                <td>Babar</td>
+                <td>9</td>
+                <td><button id="dd" onclick="del()">delete</button></td></tr>
+            <tr id="aa1"><td>4</td>
+                <td>Malik</td>
+                <td>6</td>
+                <td><button id="dd" onclick="del()">delete</button></td></tr>
+            <tr id="aa1"><td>5</td>
+                <td>Fawad</td>
+                <td>8</td>
+                <td><button id="dd" onclick="del()">delete</button></td></tr>
+            <tr id="aa1"><td>6</td>
+                <td>Afridi</td>
+                <td>10</td>
+                <td><button id="dd" onclick="del()">delete</button></td></tr>
+            <tr id="aa1"><td>7</td>
+                <td>Akram</td>
+                <td>11</td>
+                <td><button id="dd" onclick="del()">delete</button></td></tr>
+            <tr id="aa1"><td>8</td>
+                <td>Javed</td>
+                <td>11</td>
+                <td><button id="dd">delete</button></td></tr>
+            <tr id="aa1"><td>9</td>
+                <td>Khan</td>
+                <td>12</td>
+                <td><button id="dd">delete</button></td></tr>
+        </table>
+    </div>
+    <div style="text-align: center;">
+        <img src="b1.jpg" id="ca" onmouseout="out()" onmouseover="changeImage()" alt="">
+    </div>
+    <div id="aa-a">
+    </br>
+        <button id="sub"> - </button>
+        <input type="number" value="0">
+        <button id="add"> + </button>
+    </div>
+     <!--Create a signup form and display form data in your web
+page on submission.-->
+       
+    <!-- Button to open the modal -->
+<button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+
+<!-- The Modal (contains the Sign Up form) -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">Close</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signup">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>  
+            
+
+
+<p id="pera">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <a href="javascript:void(0)" onclick="readmore()" >read more</a></p>
+
+
+
+</div>
+<div>
+    <table>
+        <tr>
+            <td>Index</td>
+            <td>Name</td>
+            <td>Class</td>
+            <td></td>
+        </tr>
+        <tr id="aa"><td>0</td>
+            <td>Fakhar</td>
+            <td>7</td>
+            <td><button id="dd" onclick="del()">delete</button></td></tr>
+        <tr id="aa"><td>1</td>
+            <td>Azhar</td>
+            <td>6</td>
+            <td><button id="dd" onclick="del()">delete</button></td></tr>
+        <tr id="aa"><td>2</td>
+            <td>Sarfaraz</td>
+            <td>8</td>
+            <td><button id="dd" onclick="del()">delete</button></td></tr>
+        <tr id="aa"><td>3</td>
+            <td>Babar</td>
+            <td>9</td>
+            <td><button id="dd" onclick="del()">delete</button></td></tr>
+        <tr id="aa"><td>4</td>
+            <td>Malik</td>
+            <td>6</td>
+            <td><button id="dd" onclick="del()">delete</button></td></tr>
+        <tr id="aa"><td>5</td>
+            <td>Fawad</td>
+            <td>8</td>
+            <td><button id="dd" onclick="del()">delete</button></td></tr>
+        <tr id="aa"><td>6</td>
+            <td>Afridi</td>
+            <td>10</td>
+            <td><button id="dd" onclick="del()">delete</button></td></tr>
+        <tr id="aa"><td>7</td>
+            <td>Akram</td>
+            <td>11</td>
+            <td><button id="dd" onclick="del()">delete</button></td></tr>
+        <tr id="aa"><td>8</td>
+            <td>Javed</td>
+            <td>11</td>
+            <td><button>delete</button></td></tr>
+        <tr id="aa"><td>9</td>
+            <td>Khan</td>
+            <td>12</td>
+            <td><button>delete</button></td></tr>
+    </table>
+</div>
+
+
+    <div onload='myFunction()'> 
+        <h1> <i>DOM</i> </h1>
+        
+        <div id=”form-content” class=”content”>
+        <label for=”first-name”>First Name</label>
+        <input type="text" id="f-name" value='' />
+        <label for=”last-name”>Last Name</label>
+        <input type=”text” id="l-name"  value=''/>
+        <label for=”email”>Email</label>
+        <input type=”text” id="email" value=''/>
+        </div>
+        <div id=”main-content” class=”content”>
+        <p class=”render”> First Name : Alex</p>
+        <p class=”render” id=”lastName”>Last Name: Bank</p>
+        <p class=”render”> Email : alexbank@example.com</p>
+        <p class=”render”> Country : Pakistan </p>
+        <p class=”render”> Contact : +92 3XX XXXXXX</p>
+        </div>
+        </div>
+
+
+</body>
+<script src="app.js"></script>
+</html>
