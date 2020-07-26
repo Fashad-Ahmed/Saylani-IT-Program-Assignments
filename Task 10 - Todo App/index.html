@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List App</title>
+    <link rel="shortcut icon" href="https://banner2.cleanpng.com/20180130/ptw/kisspng-four-leaf-clover-clip-art-emerald-clover-5a70761eec4d85.1497310315173197109679.jpg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="showcase">
+        <div class="content">
+            <!-- <img src="https://image.ibb.co/ims4Ep/logo.png" class="logo" alt=""> -->
+            <div class="title">
+                Welcome To Do list App
+            </div>
+        </div>
+        <div id="to">
+            <input type="text"  placeholder = "Enter Task" id="todo-item">
+            <button onclick="addTodo()">ADD ITEM <span></span></button>
+            <button onclick="deleteAll()">REMOVE ALL <span></span></button>
+        </div>
+
+        <div>
+            <ul id="list">
+
+            </ul>
+        </div>
+    </div>
+
+    
+</body>
+<script src="app.js"></script>
+</html>
